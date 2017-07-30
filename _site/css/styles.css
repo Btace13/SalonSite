@@ -35,7 +35,7 @@ ul{
 }
 
 ul.social a {
-  color: #1abc9c;
+  color: #62ccca;
   text-decoration: none;
   transition: all .5s ease-in-out;
 }
@@ -84,7 +84,7 @@ hr.light {
 }
 
 a {
-    color: #1abc9c;
+    color: #62ccca;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -249,6 +249,37 @@ p {
 }
 /*--------------------- pricing_table css end ---------------------*/
 
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
+
 .text-faded {
     color: rgba(245,245,245,0.7);
 }
@@ -258,7 +289,7 @@ p {
 }
 
 .text-primary {
-    color: #1abc9c;
+    color: #62ccca;
 }
 
 .modal-content {
@@ -292,7 +323,7 @@ footer {
 
 .navbar-header > .navbar-brand {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    color: #1abc9c;
+    color: #62ccca;
     padding: 15px;
     -webkit-transition: padding .2s ease-in;
     -moz-transition: padding .2s ease-in;
@@ -301,7 +332,7 @@ footer {
 
 .navbar-header > .navbar-brand:hover,
 .navbar-header > .navbar-brand:focus {
-    color: #1abc9c;
+    color: #62ccca;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -321,12 +352,12 @@ footer {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #1abc9c;
+    color: #62ccca;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #1abc9c !important;
+    color: #62ccca !important;
     background-color: #222;
 }
 
@@ -348,7 +379,7 @@ footer {
     }
 
     .navbar-header > .navbar-brand {
-        color: #1abc9c;
+        color: #62ccca;
         padding: 19px;
     }
 
@@ -378,7 +409,7 @@ footer {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 15px;
-        color: #1abc9c;
+        color: #62ccca;
         padding: 20px;
         letter-spacing: 1px;
     }
@@ -396,7 +427,7 @@ footer {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #1abc9c;
+        color: #62ccca;
     }
 }
 

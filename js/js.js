@@ -20,5 +20,10 @@
         $('.navbar-toggle:visible').click();
     });
 
+$(document).ready(function() {
+    $('#Carousel').carousel({
+        interval: 5000
+    })
+});
 
 })(jQuery);
