@@ -371,6 +371,17 @@ footer {
     width: 100%;
 }
 
+@media(max-width: 768px) {
+    .arrows {
+        display: none;
+    }
+
+    header .header-logo-image {
+        max-width: 100%;
+    }
+}
+
+
 @media(min-width:768px) {
     .navbar-default {
         border-color: #222;
@@ -437,9 +448,10 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../images/black.jpg');
+    /* background-image: url('../images/black.jpg');
     background-attachment: fixed;
-    background-position: center;
+    background-position: center; */
+    background-color: #000;
 }
 
 header .header-content {
@@ -471,9 +483,82 @@ footer {
 
 
 @media(min-width:768px) {
+    .arrows {
+        width: 60px;
+        height: 72px;
+        position: absolute;
+        left: 50%;
+        margin-left: -30px;
+        bottom: -180px;
+    }
+
+    .arrows path {
+        stroke: #fff;
+        fill: transparent;
+        stroke-width: 1px;
+        animation: arrow 2s infinite;
+        -webkit-animation: arrow 2s infinite;
+    }
+
+    @keyframes arrow {
+        0% {
+            opacity: 0
+        }
+
+        40% {
+            opacity: 1
+        }
+
+        80% {
+            opacity: 0
+        }
+
+        100% {
+            opacity: 0
+        }
+    }
+
+    @-webkit-keyframes arrow
+
+    /*Safari and Chrome*/
+        {
+        0% {
+            opacity: 0
+        }
+
+        40% {
+            opacity: 1
+        }
+
+        80% {
+            opacity: 0
+        }
+
+        100% {
+            opacity: 0
+        }
+    }
+
+    .arrows path.a1 {
+        animation-delay: -1s;
+        -webkit-animation-delay: -1s;
+        /* Safari 和 Chrome */
+    }
+
+    .arrows path.a2 {
+        animation-delay: -0.5s;
+        -webkit-animation-delay: -0.5s;
+        /* Safari 和 Chrome */
+    }
+
+    .arrows path.a3 {
+        animation-delay: 0s;
+        -webkit-animation-delay: 0s;
+        /* Safari 和 Chrome */
+    }
     .service-banner{
-   width: auto;
-}
+        width: auto;
+    }
     .icon-lg {
         font-size: 80px;
     }
@@ -507,10 +592,13 @@ footer {
         max-width: 80%;
         font-size: 18px;
     }
+
+    header .header-logo-image {
+        max-width: 50%;
+    }
     
     section {
         min-height: 600px;
         padding: 100px 0;
     }
-
 }
