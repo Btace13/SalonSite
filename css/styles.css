@@ -455,10 +455,9 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    /* background-image: url('../images/black.jpg');
+    background-image: url('../images/black.jpg');
     background-attachment: fixed;
-    background-position: center; */
-    background-color: #000;
+    background-position: center;
 }
 
 header .header-content {
