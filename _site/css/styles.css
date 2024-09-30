@@ -371,6 +371,13 @@ footer {
     width: 100%;
 }
 
+.small-image-holder{
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media(max-width: 768px) {
     .arrows {
         display: none;
@@ -448,10 +455,9 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    /* background-image: url('../images/black.jpg');
+    background-image: url('../images/black.jpg');
     background-attachment: fixed;
-    background-position: center; */
-    background-color: #000;
+    background-position: center;
 }
 
 header .header-content {
@@ -489,7 +495,7 @@ footer {
         position: absolute;
         left: 50%;
         margin-left: -30px;
-        bottom: -180px;
+        bottom: -50px;
     }
 
     .arrows path {
@@ -579,7 +585,9 @@ footer {
     header .header-content .inner {
         margin-right: auto;
         margin-left: auto;
-        max-width: 1000px;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
     }
 
     header .header-content .inner h1 {

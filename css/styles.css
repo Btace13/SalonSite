@@ -371,6 +371,13 @@ footer {
     width: 100%;
 }
 
+.small-image-holder{
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media(max-width: 768px) {
     .arrows {
         display: none;
@@ -489,7 +496,7 @@ footer {
         position: absolute;
         left: 50%;
         margin-left: -30px;
-        bottom: -180px;
+        bottom: -80px;
     }
 
     .arrows path {
